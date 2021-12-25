@@ -1,0 +1,441 @@
+/* this is the styling for the other part of the website excluding the homepage */
+
+body{
+    margin: 0px;
+    font-family: "Lato" , sans-serif;
+}
+
+
+
+
+.holder{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.navbar {
+    background-color:turquoise;
+}
+
+
+
+
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.left-side{
+    display: flex;
+}
+
+
+
+.navbar>.left-side>div{
+    margin-right: 25px;
+}
+
+
+.links{
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.links a{
+
+color: gray;
+text-decoration: none;
+transition: color 0.5s;
+}
+
+
+.links:hover{
+    border-bottom: 1px solid black;
+    
+}
+
+.links a:hover {
+    color: black;
+}
+
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+
+.active-nav-link a {
+    color: black !important;
+}
+
+
+
+.items {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+.item {
+    position: relative;
+
+}
+
+.background {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.subtitles {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+
+
+.subtitles{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+
+.subtitles:hover {
+    font-weight: 600;
+    color: lightseagreen;
+}
+
+
+.img-darken {
+    transition: 1s;
+    filter: brightness(10%);
+
+}
+
+
+.subtitle {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.subtitle{
+    transition: 1s;
+    font-weight: 1000;
+    color: transparent;
+}
+
+
+.subtitle:hover {
+    font-weight: 600;
+    color:lightgreen;
+}
+
+
+
+.contact-me{
+    padding-top: 5px;
+    padding-left: 350px;
+    background-color: turquoise;
+    padding-bottom: 5px;
+}
+
+
+
+
+.wallpaper {
+
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.letters{
+    padding-top: 20px;
+}
+
+
+
+.movies-1{
+    padding-left: 350px;
+    padding-top: 100px;
+    color: transparent;
+}
+
+
+.movies-2{
+    padding-top: 100px;
+    padding-left: 1500px;
+    color: transparent;
+}
+
+
+
+.movies-1:hover {
+    color:turquoise;
+}
+
+
+.movies-2:hover {
+    color: red;
+}
+
+
+.anime {
+    padding-top: 500px;
+    color: transparent;
+
+}
+
+.anime:hover {
+    color: yellowgreen;
+}
+
+
+    
+
+.anime-2 {
+    padding-left: 1500px;
+    color: transparent;
+}
+
+.anime-2:hover {
+    color: orange;
+}
+
+.anime-3 {
+    padding-bottom: none;
+}
+
+
+.slayer{
+    background-color: seashell;
+}
+
+
+.img-1 {
+    
+    padding-left: 1410px; 
+    bottom: 200px;
+    position: relative;
+}
+
+
+
+.slayer{
+    max-height: 350px;
+    height: 100%;
+    border-bottom: none;
+    padding-left: 7px;
+    padding-top: none;
+    }
+
+
+.mha{
+    background-color:turquoise;
+
+
+} 
+
+.img-2 {
+    padding-right: 1370px;
+    bottom: 250px;
+    position: relative;
+}
+
+.mha{
+    max-height: 350px;
+    height: 100%;
+    border-bottom: none;
+    position: relative;
+    padding-right: 40px;
+    }
+
+
+.img-3 {
+    padding-left: 1370px;
+    bottom: 270px;
+    position: relative;
+}
+
+.b-c {
+    padding-left: 7px;
+    max-height: 400px;
+    height: 100%;
+    border-bottom: none;
+    background-color: seashell;
+}
+
+
+.h-x-h {
+    position: relative;
+    padding-right: 40px;
+    max-height: 350px;
+    height: 100%;
+    border-bottom: none;
+    background-color: turquoise;
+
+
+}
+
+
+.img-4 {
+    padding-right: 1370px;
+    bottom: 250px;
+    position: relative;
+
+}
+
+.f-m {
+    position: relative;
+    max-height: 400px;
+    height: 100%;
+    border-bottom: none;
+    background-color: seashell;
+}
+
+
+.img-5 {
+    
+    padding-left: 1370px;
+    bottom: 300px;
+    position: relative;
+    
+}
+
+
+
+.s-n {
+    position: relative;
+    background-color: turquoise;
+    max-height: 400px;
+    height: 100%;
+    border-bottom: none;
+    padding-right: 40px;
+}
+
+
+
+.img-6 {
+    padding-right: 1370px;
+    bottom: 250px;
+    position: relative; 
+}
+
+
+
+.savetheearth {
+    background-image: linear-gradient(to bottom right, red, yellow);
+    
+}
+
+
+.container {
+    padding-left: 1600px;
+}
+
+
+
+.btn1 {
+
+    width: 300px;
+    height: 100px;
+    border-color:black ;
+    color: turquoise;
+    background-color:transparent;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 transparent;
+    transition: ease-out 0.3s;
+    font-size: 2rem;
+    outline:2px;
+
+}
+
+
+
+.btn1:hover{
+    box-shadow: inset 300px 0 0 0  white;
+    
+
+}
+
+.sm-text {
+    padding-top: 300px;
+}
+
+
+.items-1 {
+    width: 100%;
+    height: 500px;
+}
+
+
+.summoner {
+    padding-top: 100px;
+}
+
+.container-1 {
+    padding-left: 1600px;
+}
+
+
+
+
+.empty-1 {
+    padding-bottom: 50px;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+.profile-img {
+    width: 100%;
+}
+
+.profile-text {
+    padding: 35px;
+}
+
+.profile-text h2 {
+    color: red;
+}
